@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+/* Styles for the body sections */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.info-section {
+    color: #1f2937;
+    min-height: 200px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-weight: 300;
+    min-height: 200px;
+}
+
+.action-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #3882f6;
+    min-height: 200px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+}
+
+/* Subsections of the body */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+/* Styles for other elements */
+.logo {
+    font-size: 24px;
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2e6acb;
+}
+
+button.action-button {
+    border: 1px solid #f9faf8;
+}
+
