@@ -233,3 +233,8 @@ h1, h2, .logo {
 body, p, a, button {
     font-family: "Outfit", sans-serif;
 }
+
+::selection {
+    background: #1D1D1D;
+    color: #FFF7E6;
+}
